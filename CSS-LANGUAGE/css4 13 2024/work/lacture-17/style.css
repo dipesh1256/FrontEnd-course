@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.img2{
+     filter: blur(5px); 
+    filter: brightness(45%);
+    filter: grayscale(45%);
+    filter: saturate(50%);
+    }
+
+    .img3{
+         filter: blur(5px); 
+       filter: brightness(45%); 
+        filter: grayscale(45%); 
+        filter: drop-shadow(50%);
+        filter: hue-rotate(40%);
+        filter: sepia(50%);
+        }
+
+        .img4{
+            filter: blur(5px); 
+          filter: brightness(45%); 
+           filter: grayscale(45%); 
+           filter: drop-shadow(50%);
+           filter: opacity(56%);
+           }
+
+
+            div.background {
+                background: lightblue url(https://picsum.photos/200/300) no-repeat center;
+                background-size: cover;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                height: 400px;
+                width: 400px;
+              }
+              
+              div.transbox {
+                background-color: rgba(255, 255, 255, 0.4);
+                -webkit-backdrop-filter: blur(5px);
+                backdrop-filter: blur(5px);
+                padding: 20px;
+                margin: 30px;
+                font-weight: bold;
+              }
+      
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24
+}

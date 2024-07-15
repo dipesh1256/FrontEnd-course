@@ -1,0 +1,25 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.hello1{
+    background: skyblue url(https://picsum.photos/200) no-repeat center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+   
+  }
+  
+ .hello2{
+    background-color: rgba(161, 90, 90, 0.4);
+    backdrop-filter: blur(4px);
+    filter: blur();
+    padding: 20px;
+    margin: 30px;
+    font-weight: normal;
+  }

@@ -1,0 +1,26 @@
+
+#hello1{
+    color:black;
+    background-color:orange;
+}
+
+#hello2{
+   color: white;
+background-color: blue;
+}
+
+#hello3{
+   color: white;
+background-color: green;
+}
+
+#hello4{
+color: black;
+background-color: cornflowerblue;
+}
+
+
+.right{
+  color: white;
+background-color: rgb(67, 64, 64);
+}

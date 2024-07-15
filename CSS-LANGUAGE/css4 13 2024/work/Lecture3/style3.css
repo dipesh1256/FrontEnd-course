@@ -1,0 +1,12 @@
+  /* Impotant */
+p{
+    background-color: aquamarine !important;
+}
+
+    /* Universal Selctor */
+/* *{
+    background-color: rgb(228, 197, 197);
+} */
+body{
+    background-color: yellowgreen;
+}

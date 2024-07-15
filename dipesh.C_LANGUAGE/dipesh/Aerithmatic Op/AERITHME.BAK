@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main ()
+ {
+ int maths,stat,eco;
+
+maths = 98;
+stat = 95;
+eco = 96 ;
+
+
+
+ printf("Total marks = %d\n",);
+ printf("%d\n",maths);
+
+return 0 ;
+}

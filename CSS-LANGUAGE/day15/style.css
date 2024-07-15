@@ -1,0 +1,23 @@
+h2{
+    background-color: skyblue;
+    border: 3px solid red ;
+}
+
+aside{
+
+    background-color: green;
+    height: 250px;
+    width: 150px;
+}
+#hello{
+padding-left: 170px;
+    height: 250px;
+    width: 300px;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    float: right;
+    margin-top: -200px;
+}

@@ -1,0 +1,77 @@
+
+*{
+    text-align: center;
+}
+  /* Pagination css */
+
+  .pagination {
+    display: inline-block;
+    
+    
+}
+
+.pagination a {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.pagination a.active {
+    background-color: #009900;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #d4d5d2;
+}
+
+.peg {
+   font-size: 25px;
+    font-weight: bold;
+    margin-left: 110px;
+    margin-bottom: 20px;
+
+    position: relative;
+    z-index: 1;
+    bottom: 35%;
+    left: 4%;
+    margin-left: -60px;
+    border-style: outset;
+   
+}
+  
+
+/*Tooltip example */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    border-style: outset;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  

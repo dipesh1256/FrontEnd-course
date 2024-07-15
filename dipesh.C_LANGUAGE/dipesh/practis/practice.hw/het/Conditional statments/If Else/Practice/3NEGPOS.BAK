@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    int num,m,n=-1;
+
+    printf("enter the number:");
+    scanf("%d",&num);
+
+    if(num==0)
+    {
+	printf("Nothing :%d",num);
+    }
+    else if(num<=-1){
+    printf("Nagetive %d",n);
+    }
+    else {
+    printf("Positive : 1");
+    }
+
+    return 0;
+}

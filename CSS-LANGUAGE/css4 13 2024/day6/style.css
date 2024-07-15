@@ -1,0 +1,104 @@
+b{
+    font-size: large;
+}
+
+
+#abc1{
+    background-color: skyblue;
+}
+#abc2{
+    background-color: rgb(212, 195, 195);
+}
+#abc3{
+    background-color: rgba(133, 186, 52, 0.3);
+}
+#abc4{
+    background-color: hsl(0, 50%, 55%);
+}
+#abc5{
+    background-color: #7fa6a1;
+}
+
+
+.bg_img{
+    background-image: url(images.jpeg);
+    height: 200px;
+    width: 200px;
+}
+.bg_img{
+    height: 450px;
+    width: 450px;
+    background-position: left top;
+}
+#grad1 {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(red, yellow, blue);
+  }
+.bg_img{
+    background-repeat: no-repeat;
+}
+.bg_img{
+    background-size: 30%;
+    
+}
+
+
+#abc6{
+    border:20px dotted skyblue;
+    padding: 30px;
+    text-align: center;
+    font-size: x-large;
+    background-image: url(images.jpeg);
+    color: #7c5d5d;
+    background-origin: content-box;
+}
+#b1{
+    border-style: solid;
+}
+#b2{
+    border-style: dotted;
+}
+#b3{
+    border-style: dashed;
+}
+#b4{
+    border-style: inset;
+}
+#b5{
+    border-style: outset;
+}
+#b6{
+    border-style: ridge;
+}
+#b7{
+    border-style: groove;
+}
+#b8{
+    border-style: double;
+}
+#b9{
+    border-style: none;
+}
+#b10{
+    border-style: hidden;
+}
+#demo{
+    border: 3px double rgb(151, 160, 133);
+    border-radius: 30px;
+    text-align: center;
+    font-size: larger;
+}
+#opa1{
+    color: blue;
+    opacity: 0.5;
+}
+.scroll{
+    /* background-color: aquamarine; */
+    background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-attachment: scroll;
+    height: 450px;
+    width: 450px;
+}

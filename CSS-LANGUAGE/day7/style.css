@@ -1,0 +1,53 @@
+.outline{
+    background-color: skyblue;
+    border: 2px solid black;
+    height: 250px;
+    width: 400px;
+    
+    outline-offset: 5px;
+    outline-width: 5px;
+    outline-color: black;
+    outline-style: solid;
+}
+.outline{
+   
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+}
+.text{
+    text-align: center;
+    color:blue;
+    text-transform: capitalize;
+    word-spacing: 10px;
+   
+}
+.margin{
+    background-color: darkgray;
+    height: 200px;
+    width: 300px;
+    
+    margin:10px 20px 50px 60px;
+}
+#padding{
+    background-color:darkslategray;
+    height: 200px;
+    width: 300px;
+    padding: 20px 10px 50px 70px;
+}
+
+p{
+    color: blue;
+    background-color:navajowhite;   
+}
+p span{
+    vertical-align: sub;
+  
+}
+
+.outline{
+   
+    visibility: visible;
+}
+
+

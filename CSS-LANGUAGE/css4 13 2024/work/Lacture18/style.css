@@ -1,0 +1,103 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container1{
+  background-color: cadetblue;
+  border: 5cap solid black;
+  height: 200px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  
+}
+.transform1{
+  background-color: crimson;
+  height: 200px;
+  width: 150px;
+  border: 5cap solid rgb(108, 108, 112);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.transform1:hover{
+  transform: scale(1.5);
+}
+
+
+.container2{
+  background-color: rgb(190, 111, 7);
+  border: 5cap solid black;
+  height: 300px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.transform2{
+  background-color:pink;
+  height: 200px;
+  width: 150px;
+  border: 5cap solid blue;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.transform2:hover{
+  transform: rotate(160deg);
+}
+
+
+.container3{
+  background-color: rgb(153, 0, 255);
+  border: 5cap solid black;
+  height: 300px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.transform3{
+  background-color: cornflowerblue;
+  height: 200px;
+  width: 150px;
+  border: 5cap solid blue;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.transform3:hover{
+  transform: skew(200deg);
+}
+
+.container{
+  background-color: rgb(206, 224, 206);
+  border: 5px  red;
+  height: 250px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.transition{
+  background-color: blanchedalmond;
+  border: 5cap double darkred;
+  height: 200px;
+  width: 150px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+.transition:hover{
+  background-color: coral;
+  border: 5cap double darkred;
+  color:aliceblue;
+  transform: scale(0.1);
+  border-radius: 5px;
+  outline: 2px solid blueviolet; 
+  width: max-content;
+  
+  
+}

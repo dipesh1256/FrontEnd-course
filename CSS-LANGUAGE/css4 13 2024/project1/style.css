@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../project1/image/banner-back.png");
+}
+header{
+    height: 40px;
+    background-color: white;
+}
+.logo{
+    height: 15px;
+    width: 60px;
+    padding-right: 140px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+span{
+    padding-right: 20px;
+}
+.facebook{
+    height: 25px;
+    width: 25px;
+    padding-left: 380px;
+    padding-top: 10px;
+}
+.twitter{
+    height: 25px;
+    width: 25px;
+}
+.youtube{
+    height: 25px;
+    width: 25px;
+}
+.instagram{
+    height: 25px;
+    width: 25px;
+}
+.threeline{
+    height: 25px;
+    width: 25px;
+}
+span{
+    color: palevioletred;
+    margin-left: 10px;
+}
+.h2h5{
+    padding-left: 50px;
+    padding-top: 80px;
+}
+.submit{
+    background-color: palevioletred;
+    height: 30px;
+    border: none;
+}
+.image{
+    margin-left:500px ;
+   margin-top: -150px;
+}
+
+a{
+padding-right: 20px;
+}
+

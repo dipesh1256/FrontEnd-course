@@ -1,0 +1,24 @@
+/*
+
+    stdio.h => iostream
+	
+	printf() => cout
+	             << => insertion operator
+				 :: => scope resolution operator
+				 
+	scanf() =>  cin
+                >> => extersion operator
+
+ */
+
+   #include<iostream>
+    using namespacen std;
+    int main()
+    {	
+	
+	int a,b;
+	cout << "hello world\n;
+	cout << "enter a: ";
+	cin  >> a >> b;
+	cout << "value of a: " << a<< "\nvalue of b is: " << b;
+	}

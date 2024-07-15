@@ -1,0 +1,29 @@
+/* responsive media queries */
+
+/* max-width */
+/* min-width */
+
+
+/* 576 max-width */
+/* 768 max-width */
+
+@media (max-width:991px){
+    .menu{
+        display: none;  
+    }
+    /* .card {
+         gap: 20px; 
+    }            */
+} 
+
+@media (max-width:426px){
+    .image{
+        display: none;
+    }
+    .grid1{
+        gap: 20px;
+    }
+}
+
+
+

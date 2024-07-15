@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+.fa-youtube{
+    color: red;
+    size: 20px;
+}
+
+.fa-instagram{
+    color:palevioletred;
+    size: 20px;
+}
+
+.fa-telegram{
+    color:skyblue;
+    size: 20px;
+}
+
+.fa-whatsapp{
+    color: green;
+    size: 20px;
+}
+
+.fa-snapchat{
+    color: yellow;
+    size: 50px;
+   
+}
+
+
+.material-symbols-outlined {
+  
+    color: black;
+    size: 20px;
+}
+
+.material-symbols-outlined1{
+
+    color: black;
+    size: 20px;
+}
+
+.material-symbols-outlined{
+
+    color:red;
+    size: 20px;
+}
+
+.material-symbols-outlined{
+
+    color: red;
+    size: 20px;
+}

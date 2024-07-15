@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+//Net bill program
+
+int main () {
+
+  float rate,qty,bamt,nbill,amt,dis,gst;
+
+  printf("\nEnter the Ammount of the rate :");
+  scanf("%f",&rate);
+
+  printf("\nEnter the Buy Quntity :");
+  scanf("%f",&qty);
+
+  amt=rate*qty;
+  dis=amt*7/100;
+  bamt=amt-dis;
+  gst=bamt*18/100;
+  nbill=bamt+gst;
+
+  printf(" Rate    Qty.    Amt.     Dis.7%    BillAmt    GST 18%    NetBill ");
+  printf("\n %.1f   %.2f    %.2f     %.2f      %.2f       %.2f        %.2f ",rate,qty,amt,dis,bamt,gst,nbill);
+
+ return 0;
+
+}

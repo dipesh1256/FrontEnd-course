@@ -1,0 +1,43 @@
+    
+.color{
+    background-color: blueviolet;
+}
+
+   
+.color{
+    background-color: rgb(246, 214, 214);
+}
+
+    
+.color{
+    background-color: rgba(122,145,23,0.6);
+}
+
+   
+.color{
+    background-color: skyblu;
+}
+
+    
+.image{
+    background-image: url("https://picsum.photos/200/300");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+}
+
+   
+.border{
+    font-size: 40px;
+    border:6px double blue;
+} 
+
+
+.radius{
+    font-size:x-large;
+    background-color: skyblue;
+    border-radius: 20px;
+}
+
+

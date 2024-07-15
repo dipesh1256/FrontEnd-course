@@ -1,0 +1,88 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Rotate CSS */
+.container1{
+  background-color:skyblue;
+  height: 400px;
+  display: flex;
+  border: 3px dotted black;
+  
+}
+.transform1{
+  background-color: rebeccapurple;
+  height: 150px;
+  width: 150px;
+  border: 3px solid black;
+  display: flex;
+}
+
+.transform2:hover{
+  transform: rotate(200deg);
+}
+
+/* scale CSS */
+.container2{
+  background-color: darkgray;
+  border: 2px dotted black;
+  height: 400px;
+  display: flex;
+ 
+}
+.transform2{
+  background-color: darksalmon;
+  height: 150px;
+  width: 150px;
+  border: 3px solid black;
+  display: flex;
+  
+}
+.transform1:hover{
+  transform: scale(2.5);
+}
+
+/* skew CSS */
+.container3{
+  background-color:burlywood;
+  border: 2px dotted black;
+  height: 400px;
+  display: flex;
+ 
+} 
+.transform3{
+  background-color: darkcyan;
+  height: 150px;
+  width: 150px;
+  border: 3px solid black;
+  display: flex;
+  
+}
+.transform3:hover{
+  transform: skew(200deg);
+}
+
+/* matrix css */
+.container4{
+  background-color: skyblue;
+  border: 2px dotted black;
+  height: 400px;
+  display: flex;
+  
+}
+
+
+.transform4{
+  background-color:darkgray;
+  height: 150px;
+  width: 150px;
+  border: 3px solid black;
+  display: flex;
+ 
+}
+
+.transform4:hover{
+  transform: matrix(1, -0.3, 0, 1, 0, 0)
+}
+

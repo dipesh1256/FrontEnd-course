@@ -1,0 +1,43 @@
+body{
+    margin: 10px;
+    padding: 20px;
+}
+
+        /* CSS pseudo class */
+
+ p:hover{
+    background-color: cadetblue;
+    color: black;
+} 
+
+ p:first-child{
+    background-color:black;
+} 
+ p:last-child{
+    background-color: hotpink;
+}  
+
+
+ p:nth-child(odd){
+    color: black;
+}
+p:nth-child(even){
+    color: rebeccapurple;
+}
+p:nth-child(3){
+    background-color: black;
+} 
+
+ p::before{
+    content: "*";
+}
+p::after{
+    content: "*";
+} 
+
+ p::first-letter{
+    color: greenyellow;
+}
+p::first-line{
+    background-color: red;
+} 

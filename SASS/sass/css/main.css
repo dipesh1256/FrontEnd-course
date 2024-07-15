@@ -1,0 +1,35 @@
+/* sass variables */
+/* @forward Method */
+.box {
+  height: 100px;
+  width: 200px;
+  background-color: red;
+}
+
+/* Nesting Method in Sass */
+.maindiv {
+  height: 300px;
+  width: 400px;
+  background-color: gray;
+}
+.maindiv .box {
+  height: 200px;
+  width: 300px;
+  background-color: green;
+  border: 1px solid black;
+}
+.maindiv .box .child-1 {
+  height: 50px;
+  width: 100px;
+  background-color: red;
+  border: 1px solid black;
+}
+.maindiv .box .child-2 {
+  height: 50px;
+  width: 100px;
+  background-color: red;
+  border: 1px solid black;
+}
+.maindiv .box .child-2:hover {
+  background-color: purple;
+}/*# sourceMappingURL=main.css.map */
